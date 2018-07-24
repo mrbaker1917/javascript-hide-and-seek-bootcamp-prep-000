@@ -20,6 +20,6 @@ function deepestChild() {
   for (var i = 0; i < divGN.length; i++) {
     if (divGN[i].div === "boo!") {
       return divGN[i].div;
-    }
+    } 
   }
 }
