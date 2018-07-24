@@ -18,6 +18,8 @@ function increaseRankBy(n) {
 function deepestChild() {
   let divGN = document.getElementById('grand-node').querySelectorAll('div')
   for (var i = 0; i < divGN.length; i++) {
-    divGN[i].div = ""
+    if (divGN[i].div === "boo!") {
+      return divGN[i].div;
+    }
   }
 }
